@@ -1,0 +1,14 @@
+<h2>REGISTRATI A MONO-RENT </h2>
+<form>
+    nome:<input #nome>
+    cognome:<input #cognome>
+    indirizzo:<input #indirizzo>
+    telefono:<input #telefono>
+    email:<input #email>
+    username: <input #username>
+    password: <input #password>
+    numero carta di credito: <input #ncarta>
+    scadenza carta di credito: <input #scarta>
+    <button (click)="onAddUtente(nome,cognome,indirizzo,telefono,email,username,password,ncarta,scarta)">REGISTRATI</button>
+</form>
+<app-lista [preno]="prenoData"></app-lista>
